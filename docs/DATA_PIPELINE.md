@@ -1,0 +1,1 @@
+per stage: purpose, inputs, outputs, and the validation rules enforced, along with a diagram (draw.io or ASCII) showing the collect -> preprocess -> features -> validate flow and the dvc.yaml dependency graph.
