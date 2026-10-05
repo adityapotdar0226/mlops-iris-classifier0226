@@ -1,25 +1,5 @@
-# Python
-__pycache__/
-*.pyc
-
-.venv/
-venv/
-*.egg-info/
-
-# Data & Models
-data/*.csv
-data/*.parquet
-models/*.pkl
-models/*.joblib
-models/
+# MLflow
 mlruns/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment
-.env
-
-# IDE
-.vscode/
-.idea/
+mlflow.db
+mlartifacts/
+confusion_matrix_*.png
