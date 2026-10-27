@@ -1,5 +1,34 @@
-# MLflow
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+test-results.xml
+
+# Generated pipeline data
+data/raw/
+data/processed/
+
+# Generated model artifacts
+models/
+
+# MLflow generated files
+mlartifacts/
 mlruns/
 mlflow.db
-mlartifacts/
+
+# Generated confusion matrix images
 confusion_matrix_*.png
+
+# IDE
+.vscode/
+.idea/
